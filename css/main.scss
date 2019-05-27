@@ -222,6 +222,8 @@ $baseurl: '{{ site.baseurl }}/images';
 			color: _palette(fg-light);
 			position: relative;
 			top: -0.25em;
+			padding-left: 2em;
+			padding-right: 2em;
 		}
 
 		h2 + p {
@@ -1384,19 +1386,38 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 100%;
 		z-index: _misc(z-index-base);
 
-		h1 {
+		.logo-header {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
 			position: absolute;
 			top: 0;
+			display: inline-block;
+			vertical-align: middle;
+
+			.image {
+				height: 90%;
+				vertical-align: middle;
+			}
+
+			img {
+				height: 2.25em;
+				width: 2.25em;
+				display: inline-block;
+			}
+
+			h1 {
+				display: inline-block;
+			}
 
 			a {
 				border: 0;
-				display: block;
+				display: inline-block;
 				height: inherit;
 				line-height: inherit;
+				vertical-align: middle;
+				margin: 0;
 
 				@include breakpoint(small) {
 					font-size: 0.8em;
@@ -1487,7 +1508,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		&.alt {
 			background: transparent;
 
-			h1 {
+			.logo-header {
 				@include vendor('pointer-events', 'none');
 				opacity: 0;
 			}
@@ -1704,6 +1725,14 @@ $baseurl: '{{ site.baseurl }}/images';
 					max-width: none;
 				}
 			}
+		}
+	}
+
+/* Team */
+
+	.team-member {
+		.image.fit, h4, h5 {
+			margin: 0;
 		}
 	}
 
