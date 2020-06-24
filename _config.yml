@@ -15,17 +15,17 @@
 # in the templates via {{ site.myvariable }}.
 title: BikePath
 description: >
-  BikePath is a multi-agent simulation platform that helps city planners maximize bike-sharing usage and bike availability.
+  BikePath helps bikes and scooter sharing providers decide where to put their bikes and scooters.
 owner: BikePath # or company name
-first_published: 2019 # if migrating another site, the year of your first publish
-email: admin@bike-path.co
+first_published: 2020 # if migrating another site, the year of your first publish
+email: dhruv@bikepath.io
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://bike-path.co" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://bikepath.io" # the base hostname & protocol for your site, e.g. http://example.com
 social:
-  twitter: https://twitter.com/bikepathco
+  twitter: https://twitter.com/bikepathio
   # github: https://github.com/<username>
   linkedin-square: https://www.linkedin.com/company/bikepath/
-  email: mailto:admin@bike-path.co
+  email: mailto:founders@bikepath.io
   # facebook-official: https://facebook.com/<username>
   # google-plus-square: https://plus.google.com/u/0/+<username>
 
