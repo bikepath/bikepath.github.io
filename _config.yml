@@ -24,7 +24,7 @@ url: "http://bikepath.io" # the base hostname & protocol for your site, e.g. htt
 social:
   twitter: https://twitter.com/bikepathio
   # github: https://github.com/<username>
-  linkedin-square: https://www.linkedin.com/company/bikepath/
+  
   email: mailto:founders@bikepath.io
   # facebook-official: https://facebook.com/<username>
   # google-plus-square: https://plus.google.com/u/0/+<username>
