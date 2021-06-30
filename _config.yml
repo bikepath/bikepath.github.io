@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: BikePath
+title: Tribute
 description: >
   BikePath is disrupting traditional community oriented social internet platforms through its flagship product, Tribute.
 owner: BikePath # or company name
