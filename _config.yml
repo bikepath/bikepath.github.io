@@ -15,17 +15,17 @@
 # in the templates via {{ site.myvariable }}.
 title: BikePath
 description: >
-  BikePath helps bikes and scooter sharing providers decide where to put their bikes and scooters.
+  BikePath is disrupting traditional community oriented social internet platforms through its flagship product, Tribute.
 owner: BikePath # or company name
 first_published: 2020 # if migrating another site, the year of your first publish
-email: dhruv@bikepath.io
+email: admin@bikepath.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://bikepath.io" # the base hostname & protocol for your site, e.g. http://example.com
 social:
   twitter: https://twitter.com/bikepathio
   # github: https://github.com/<username>
   
-  email: mailto:founders@bikepath.io
+  email: mailto:admin@bikepath.io
   # facebook-official: https://facebook.com/<username>
   # google-plus-square: https://plus.google.com/u/0/+<username>
 
